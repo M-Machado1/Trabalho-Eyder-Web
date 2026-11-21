@@ -114,8 +114,8 @@ export function initDb(): void {
 
     connection.pragma("user_version = 1");
     connection.exec("COMMIT");
-  } catch {
+  } catch (err) {
     connection.exec("ROLLBACK");
-    throw;
+    throw err;
   }
 }
