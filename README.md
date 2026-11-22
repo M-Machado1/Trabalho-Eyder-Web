@@ -106,9 +106,3 @@ npm run dev
 A aplicação fica disponível em `http://localhost:3000`.
 
 Não há passos extras. O banco `data/app.db` é criado automaticamente. Para restaurar o estado inicial, apague `data/app.db` e reinicie o servidor.
-
-## Observações sobre o frontend (reportadas, não corrigidas)
-
-- O rodapé em `app/layout.tsx` credita "murilo livros" em vez da Open Library.
-- O botão "Adicionar à estante" só descobre que o livro já está na estante ao receber o 409 (aparece como "Adicionar" até o clique).
-- O `package.json` mantém resíduos de `npm init` (`main`, `description` vazia, script `test`).
