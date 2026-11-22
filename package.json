@@ -1,14 +1,14 @@
 {
-  "name": "frontend",
+  "name": "catalago-livros",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Catálogo de Livros — busca e estante de leitura com Open Library",
+  
   "directories": {
     "doc": "docs",
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
