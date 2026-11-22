@@ -21,7 +21,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         </main>
         <footer className="site-footer">
           <div className="container">
-            Dados fornecidos pela murilo livros
+            Dados fornecidos pela Open Library
           </div>
         </footer>
       </body>
